@@ -1,0 +1,13 @@
+2
+PO(^2Pi) - phosphorus monoxide
+ P     0.000000     0.000000    -0.506925
+ O     0.000000     0.000000     0.981372
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      21.6266676     21.6266676      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -416.016734 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.345     3.981     4.692     4.006     0.000     0.000     1.961     1.961

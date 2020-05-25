@@ -1,0 +1,13 @@
+2
+AlO(^2Sigma^+) - aluminum monoxide
+AL     0.000000     0.000000    -0.610954
+ O     0.000000     0.000000     1.030319
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      18.6792980     18.6792980      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -317.093882 Eh
+ 
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.972     5.972     8.847     6.930     0.000     0.000     4.399     4.399

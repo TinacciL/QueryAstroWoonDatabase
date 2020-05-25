@@ -1,0 +1,13 @@
+2
+HF(^1Sigma) - hydrogen fluoride
+ H     0.000000     0.000000    -0.874590
+ F     0.000000     0.000000     0.046400
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     622.4757137    622.4757137      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -100.349577 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     0.724     0.724     0.944     0.798     0.000     0.000     1.797     1.797

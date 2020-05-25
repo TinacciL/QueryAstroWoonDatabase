@@ -1,0 +1,14 @@
+3
+NCO(^2Pi) - isocyanato radical
+ N     0.000000     0.000000    -1.273071
+ C     0.000000     0.000000    -0.037233
+ O     0.000000     0.000000     1.142464
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      11.5911879     11.5911879      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -167.761586 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.299     2.291     4.939     3.176     0.000     0.000    -0.715     0.715

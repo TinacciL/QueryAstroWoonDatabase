@@ -1,0 +1,13 @@
+2
+CO(^2Sigma^+) - carbon monoxide
+ C     0.000000     0.000000    -0.648873
+ O     0.000000     0.000000     0.487119
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      57.0825219     57.0825219      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -113.162194 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.763     1.763     2.326     1.951     0.000     0.000    -0.101     0.101

@@ -1,0 +1,13 @@
+2
+SiH(^2Pi) - silylidyne
+SI     0.000000     0.000000    -0.052845
+ H     0.000000     0.000000     1.472478
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     223.2399143    223.2399143      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -289.548950 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     6.047     4.712     5.785     5.515     0.000     0.000    -0.104     0.104

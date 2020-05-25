@@ -1,0 +1,15 @@
+4
+HSCN(^1A') - thiocyanic acid
+ H    -1.177401    -1.287101     0.000000
+ S    -1.023937     0.045763     0.000000
+ C     0.679245    -0.020572     0.000000
+ N     1.845957     0.005517     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     290.0419011      5.7246805      5.6138770 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -491.027304 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     7.758     4.464     4.292     5.505     3.331     0.858     0.000     3.439

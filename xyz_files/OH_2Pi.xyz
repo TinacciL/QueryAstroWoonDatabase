@@ -1,0 +1,13 @@
+2
+OH(^2Pi) - hydroxyl
+ O     0.000000     0.000000    -0.057680
+ H     0.000000     0.000000     0.915577
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     562.6771811    562.6771811      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -75.645398 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     0.904     1.052     1.264     1.073     0.000     0.000    -1.639     1.639

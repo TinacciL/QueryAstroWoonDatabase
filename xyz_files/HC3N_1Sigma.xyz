@@ -1,0 +1,16 @@
+5
+HC3N(^1Sigma^+) - cyanoacetylene
+ H     0.000000     0.000000    -2.972327
+ C     0.000000     0.000000    -1.907330
+ C     0.000000     0.000000    -0.694874
+ C     0.000000     0.000000     0.688292
+ N     0.000000     0.000000     1.855107
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       4.5005584      4.5005584      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -169.289101 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.815     3.815     9.914     5.848     0.000     0.000     3.788     3.788

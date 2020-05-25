@@ -1,0 +1,14 @@
+3
+CO2(^1Sigma_g^+) - carbon dioxide
+ O     0.000000     0.000000    -1.166994
+ O     0.000000     0.000000     1.166994
+ C     0.000000     0.000000     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      11.5969976     11.5969976      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -188.340595 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.890     1.890     4.011     2.597     0.000     0.000     0.000     0.000

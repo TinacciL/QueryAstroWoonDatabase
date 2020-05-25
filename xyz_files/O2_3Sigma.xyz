@@ -1,0 +1,13 @@
+2
+O2(^3Sigma_g^-) - molecular oxygen
+ O     0.000000     0.000000    -0.606441
+ O     0.000000     0.000000     0.606441
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      42.9443910     42.9443910      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -150.140358 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.194     1.194     2.237     1.541     0.000     0.000     0.000     0.000

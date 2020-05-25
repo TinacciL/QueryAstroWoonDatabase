@@ -1,0 +1,14 @@
+3
+HCSi(^2Pi) - silicon methylidyne
+ H     0.000000     0.000000    -2.214221
+ C     0.000000     0.000000    -1.134683
+SI     0.000000     0.000000     0.564721
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      17.2115955     17.2115955      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -327.546895 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.984     5.533     8.538     6.685     0.000     0.000     0.138     0.138

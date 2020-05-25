@@ -1,0 +1,14 @@
+3
+HNSi(^1Sigma^+) - silicon imidogen (?)
+ H     0.000000     0.000000    -1.994936
+ N     0.000000     0.000000    -0.993520
+SI     0.000000     0.000000     0.567080
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      18.8090790     18.8090790      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -344.317825 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.908     4.907     6.926     5.580     0.000     0.000    -0.256     0.256

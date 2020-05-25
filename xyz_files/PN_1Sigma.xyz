@@ -1,0 +1,13 @@
+2
+PN(^1Sigma^+) - phosphorus mononitride
+ P     0.000000     0.000000    -0.467945
+ N     0.000000     0.000000     1.034791
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      23.2030688     23.2030688      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -395.557118 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.567     3.567     5.468     4.200     0.000     0.000     2.737     2.737

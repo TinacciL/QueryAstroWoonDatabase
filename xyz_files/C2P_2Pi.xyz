@@ -1,0 +1,14 @@
+3
+C2P(^2Pi) - dicarbon (mono)phosphide
+ C     0.000000     0.000000    -1.939308
+ C     0.000000     0.000000    -0.623952
+ P     0.000000     0.000000     0.993981
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       6.2818637      6.2818637      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -416.787185 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.318     5.440    11.796     7.518     0.000     0.000    -3.243     3.243

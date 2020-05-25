@@ -1,0 +1,13 @@
+2
+NO(^2Pi) - nitric oxide - nitrogen monoxide - nitrosyl radical
+ N     0.000000     0.000000    -0.616659
+ O     0.000000     0.000000     0.539855
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      50.5923368     50.5923368      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -129.725990 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.359     1.473     2.242     1.692     0.000     0.000    -0.154     0.154

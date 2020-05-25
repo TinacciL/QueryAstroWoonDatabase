@@ -1,0 +1,13 @@
+2
+NaH(^1Sigma^+) - sodium hydride
+NA     0.000000     0.000000    -0.080945
+ H     0.000000     0.000000     1.846265
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     140.9156174    140.9156174      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -162.428478 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     6.000     6.000     8.303     6.768     0.000     0.000     6.784     6.784

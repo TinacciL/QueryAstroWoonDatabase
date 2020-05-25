@@ -1,0 +1,14 @@
+3
+HSiS(^2A')
+ H    -1.813018    -1.220949     0.000000
+SI    -1.017131     0.061564     0.000000
+ S     0.948036    -0.015546     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     312.5893717      8.2600106      8.0473632 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -687.364249 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+    11.149     6.898     6.315     8.121     2.044     0.249     0.000     2.059

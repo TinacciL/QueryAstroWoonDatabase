@@ -1,0 +1,13 @@
+2
+HS(^Pi) - mercapto radical - sulfhydryl radical
+ S     0.000000     0.000000    -0.040949
+ H     0.000000     0.000000     1.302495
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     286.5407611    286.5407611      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -398.293091 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.430     2.905     3.449     3.261     0.000     0.000    -0.749     0.749

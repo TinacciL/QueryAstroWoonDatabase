@@ -1,0 +1,13 @@
+2
+AlF(^1Sigma^+) - aluminum monofluoride
+AL     0.000000     0.000000    -0.693960
+ F     0.000000     0.000000     0.985562
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      16.0705203     16.0705203      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ -341.811072 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     6.057     6.057     5.252     5.789     0.000     0.000     1.540     1.540

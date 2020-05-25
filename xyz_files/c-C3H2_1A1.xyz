@@ -1,0 +1,16 @@
+5
+c-C3H2(^1A_1) - cyclopropenylidene
+ C     0.000000     0.000000    -0.893196
+ C     0.000000    -0.665281     0.370104
+ C     0.000000     0.665281     0.370104
+ H     0.000000    -1.597584     0.911536
+ H     0.000000     1.597584     0.911536
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      16.6654107     34.7391354     32.0322439 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -115.142440 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.469     5.115     5.166     4.583     0.000     0.000    -3.411     3.411

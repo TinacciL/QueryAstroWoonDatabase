@@ -1,0 +1,15 @@
+4
+HCNO(^1A') - fulminic acid
+ H    -2.281707     0.167390     0.000000
+ C    -1.237881    -0.029682     0.000000
+ N    -0.071773     0.015942     0.000000
+ O     1.135874    -0.002219     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:   11901.6335833     11.3907871     11.3798957 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -168.334893 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     6.562     2.504     2.496     3.854     3.265    -0.252     0.000     3.274

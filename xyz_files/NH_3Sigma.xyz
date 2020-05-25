@@ -1,0 +1,13 @@
+2
+NH(^3Sigma-) - imidogen
+ N     0.000000     0.000000    -0.069780
+ H     0.000000     0.000000     0.969683
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     497.4433123    497.4433123      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -55.144774 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.317     1.317     1.707     1.447     0.000     0.000    -1.522     1.522

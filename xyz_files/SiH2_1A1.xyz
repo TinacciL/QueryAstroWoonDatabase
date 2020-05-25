@@ -1,0 +1,14 @@
+3
+SiH2(^1A_1) - silylene
+SI     0.000000     0.000000    -0.070526
+ H     0.000000     1.095283     0.982584
+ H     0.000000    -1.095283     0.982584
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     112.1988589    242.2748702    208.9775332 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -290.174397 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.611     5.439     5.641     5.230     0.000     0.000    -0.136     0.136

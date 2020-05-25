@@ -1,0 +1,16 @@
+5
+H2C3(^1A_1) - propadienylidene
+ C     0.000000     0.000000     1.221456
+ C     0.000000     0.000000    -0.113015
+ C     0.000000     0.000000    -1.408118
+ H     0.000000     0.928509     1.785535
+ H     0.000000    -0.928509     1.785535
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      10.0967653     10.4599539    290.7902398 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -115.120889 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.927     4.172     8.727     5.609     0.000     0.000    -4.168     4.168

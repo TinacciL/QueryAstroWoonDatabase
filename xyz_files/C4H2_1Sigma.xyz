@@ -1,0 +1,17 @@
+6
+C4H2(^1Sigma_g^+) - diacetylene - butadiyne
+ H     0.000000     0.000000    -2.969440
+ H     0.000000     0.000000     2.969440
+ C     0.000000     0.000000    -1.905057
+ C     0.000000     0.000000    -0.689628
+ C     0.000000     0.000000     0.689628
+ C     0.000000     0.000000     1.905057
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       4.3424365      4.3424365      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -153.205111 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.454     4.454    12.237     7.048     0.000     0.000     0.000     0.000

@@ -1,0 +1,14 @@
+3
+H2O(^1A_1) - water
+ O     0.000000     0.000000    -0.066113
+ H     0.000000     0.758694     0.524717
+ H     0.000000    -0.758694     0.524717
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     283.0722033    808.6583489    435.5303168 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -76.342326 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.344     1.478     1.397     1.406     0.000     0.000    -1.845     1.845

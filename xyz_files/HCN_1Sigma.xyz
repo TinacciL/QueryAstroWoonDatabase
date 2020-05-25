@@ -1,0 +1,14 @@
+3
+HCN(^1Sigma^+) - hydrogen cyanide
+ H     0.000000     0.000000    -1.628603
+ C     0.000000     0.000000    -0.561465
+ N     0.000000     0.000000     0.598663
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      44.0234418     44.0234418      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -93.281168 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.077     2.077     3.338     2.497     0.000     0.000     3.007     3.007

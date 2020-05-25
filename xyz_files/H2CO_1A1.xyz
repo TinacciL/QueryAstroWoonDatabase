@@ -1,0 +1,15 @@
+4
+H2CO(^1A_1) - formaldehyde
+ O     0.000000     0.000000     0.604906
+ C     0.000000     0.000000    -0.606643
+ H     0.000000     0.938411    -1.186451
+ H     0.000000    -0.938411    -1.186451
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      33.9464888     38.5423571    284.6856367 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -114.342934 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.905     2.602     3.297     2.602     0.000     0.000     2.393     2.393

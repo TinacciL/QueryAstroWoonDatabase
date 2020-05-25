@@ -1,0 +1,14 @@
+3
+H2S(^1A_1) - hydrogen sufide
+ S     0.000000     0.000000    -0.054903
+ H     0.000000     0.965313     0.873167
+ H     0.000000    -0.965313     0.873167
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     143.8986171    309.3667993    269.0393646 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -398.943621 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.659     3.577     3.556     3.598     0.000     0.000    -0.964     0.964

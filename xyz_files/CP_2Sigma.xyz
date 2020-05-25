@@ -1,0 +1,13 @@
+2
+CP(^2Sigma^+) - carbon monophosphide
+ C     0.000000     0.000000    -1.133942
+ P     0.000000     0.000000     0.439720
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      23.5795626     23.5795626      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -378.792334 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.772     4.772     6.660     5.401     0.000     0.000    -0.925     0.925

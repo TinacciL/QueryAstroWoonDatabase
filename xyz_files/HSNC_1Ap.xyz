@@ -1,0 +1,15 @@
+4
+HSNC(^1Ap) - 
+ H    -1.167612    -1.275675     0.000000
+ S    -0.970526     0.050931     0.000000
+ N     0.695397    -0.044387     0.000000
+ C     1.877590     0.022869     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     287.5866129      6.2633432      6.1298415 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -490.979789 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     8.249     4.720     4.541     5.837     3.133     0.838     0.000     3.243

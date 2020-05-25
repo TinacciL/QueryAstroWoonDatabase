@@ -1,0 +1,13 @@
+2
+CH(^Pi) - methylidyne
+ C     0.000000     0.000000    -0.086861
+ H     0.000000     0.000000     1.035069
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     431.7643018    431.7643018      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -38.412659 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.116     1.850     2.392     2.120     0.000     0.000    -1.394     1.394

@@ -1,0 +1,15 @@
+4
+HSSH(^1A_1) - dihydrogen disulfide
+ H    -1.251386    -0.905201     0.905890
+ H     1.251386     0.905201     0.905890
+ S    -1.035806     0.034382    -0.028480
+ S     1.035806    -0.034382    -0.028480
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     147.1732520      6.8612409      6.8592599 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -796.687569 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     8.371     5.671     5.660     6.567     0.000     0.000    -1.100     1.100

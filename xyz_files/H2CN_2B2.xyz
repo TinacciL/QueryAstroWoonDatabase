@@ -1,0 +1,15 @@
+4
+H2CN(^2B_2) - methylene amidogen radical
+ N     0.000000     0.000000     0.667939
+ C     0.000000     0.000000    -0.585604
+ H     0.000000     0.937816    -1.151818
+ H     0.000000    -0.937816    -1.151818
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      34.1118671     38.7489971    285.0471380 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -93.829745 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.324     2.788     3.777     2.963     0.000     0.000     2.460     2.460

@@ -1,0 +1,14 @@
+3
+NH2(^2B_1) - amino radical
+ N     0.000000     0.000000    -0.080601
+ H     0.000000     0.803307     0.560030
+ H     0.000000    -0.803307     0.560030
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     249.6813805    698.7689696    388.4979350 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -55.799659 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.549     1.880     1.917     1.782     0.000     0.000    -1.768     1.768

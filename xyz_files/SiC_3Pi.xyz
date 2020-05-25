@@ -1,0 +1,13 @@
+2
+SiC(^3Pi) - silicon monocarbide
+SI     0.000000     0.000000    -0.518767
+ C     0.000000     0.000000     1.213040
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      20.0291909     20.0291909      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -326.869358 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.075     6.847     8.589     6.837     0.000     0.000     1.578     1.578

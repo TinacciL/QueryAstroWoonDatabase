@@ -1,0 +1,13 @@
+2
+N2(^1Sigma_g^+) - molecular nitrogen
+ N     0.000000     0.000000    -0.551999
+ N     0.000000     0.000000     0.551999
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      59.2071367     59.2071367      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -109.380845 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.520     1.520     2.219     1.753     0.000     0.000     0.000     0.000

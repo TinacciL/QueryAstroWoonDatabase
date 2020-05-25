@@ -1,0 +1,15 @@
+4
+HONC(^1A') - isofulminic acid
+ H    -1.454336    -0.835531     0.000000
+ O    -1.128109     0.077209     0.000000
+ N     0.205432    -0.043166     0.000000
+ C     1.385191     0.017608     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     609.7316768     10.9554128     10.7620447 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -168.313561 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.236     2.931     2.766     3.644     3.088     1.518     0.000     3.441

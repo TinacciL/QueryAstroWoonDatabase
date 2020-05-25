@@ -1,0 +1,17 @@
+6
+C5N(^2Sigma^+) - cyanobutadiynyl radical
+ N     0.000000     0.000000    -3.026602
+ C     0.000000     0.000000    -1.898740
+ C     0.000000     0.000000    -0.514447
+ C     0.000000     0.000000     0.666933
+ C     0.000000     0.000000     2.047885
+ C     0.000000     0.000000     3.227859
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       1.4210203      1.4210203      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -244.570992 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.533     5.533    17.224     9.430     0.000     0.000    -3.333     3.333

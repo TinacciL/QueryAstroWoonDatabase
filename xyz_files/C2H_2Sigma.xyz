@@ -1,0 +1,14 @@
+3
+C2H(^2Sigma^+) - ethynyl radical
+ C     0.000000     0.000000    -0.716772
+ C     0.000000     0.000000     0.578305
+ H     0.000000     0.000000     1.650027
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      39.0799139     39.0799139      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -76.462316 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.482     4.482     4.280     4.415     0.000     0.000    -0.808     0.808

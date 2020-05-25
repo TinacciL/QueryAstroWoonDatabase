@@ -1,0 +1,15 @@
+4
+C2H2(^1Sigma_g^+) - acetylene - ethyne
+ H     0.000000     0.000000    -1.669099
+ H     0.000000     0.000000     1.669099
+ C     0.000000     0.000000    -0.605118
+ C     0.000000     0.000000     0.605118
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      35.0662459     35.0662459      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -77.192197 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.787     2.787     4.560     3.378     0.000     0.000     0.000     0.000

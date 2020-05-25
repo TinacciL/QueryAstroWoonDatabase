@@ -1,0 +1,14 @@
+3
+PH2(^2B_1) - phosphino radical
+ P     0.000000     0.000000    -0.060409
+ H     0.000000     1.020178     0.928173
+ H     0.000000    -1.020178     0.928173
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     128.0160728    273.2189632    240.8796313 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -342.061689 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.092     4.389     4.467     4.316     0.000     0.000    -0.545     0.545

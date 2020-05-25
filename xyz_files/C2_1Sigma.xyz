@@ -1,0 +1,13 @@
+2
+C2(^1Sigma_g^+) - dicarbon
+ C     0.000000     0.000000    -0.625404
+ C     0.000000     0.000000     0.625404
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      53.7881712     53.7881712      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -75.786379 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.265     5.265     4.692     5.074     0.000     0.000     0.000     0.000

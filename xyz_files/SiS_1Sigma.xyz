@@ -1,0 +1,13 @@
+2
+SiS(^1Sigma^+) = Silicon monosulfide
+SI     0.000000     0.000000    -1.038103
+ S     0.000000     0.000000     0.909409
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       8.9004913      8.9004913      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -686.814157 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     6.134     6.134    10.048     7.439     0.000     0.000     1.681     1.681

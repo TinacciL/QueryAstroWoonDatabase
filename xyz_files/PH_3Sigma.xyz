@@ -1,0 +1,13 @@
+2
+PH(^3Sigma^-) - phosphinidene
+ P     0.000000     0.000000    -0.044945
+ H     0.000000     0.000000     1.381136
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     254.5668207    254.5668207      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -341.435777 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.913     3.913     4.374     4.067     0.000     0.000    -0.422     0.422

@@ -1,0 +1,15 @@
+4
+SiC2H(^2Pi)
+ H     0.000000     0.000000    -2.937892
+ C     0.000000     0.000000    -1.871783
+ C     0.000000     0.000000    -0.639668
+SI     0.000000     0.000000     1.179479
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       5.3328263      5.3328263      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -365.587632 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     6.352     7.222    12.562     8.712     0.000     0.000     0.947     0.947

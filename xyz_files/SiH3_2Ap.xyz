@@ -1,0 +1,15 @@
+4
+SiH3(^2A') - silyl radical
+SI     0.000000     0.000000    -0.043620
+ H     1.411744     0.000000     0.405150
+ H    -0.705872    -1.222606     0.405150
+ H    -0.705872     1.222606     0.405150
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     141.8384420    141.8384420     83.8588394 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -290.790730 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.096     5.096     5.036     5.076     0.000     0.000     0.005     0.005

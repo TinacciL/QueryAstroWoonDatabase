@@ -1,0 +1,14 @@
+3
+HO2(^2A") - hydroperoxy radical
+ O    -0.696223     0.011970     0.000000
+ O     0.637543    -0.066288     0.000000
+ H     0.931454     0.862214     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     614.8823773     33.3958576     31.6754801 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -150.725748 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.713     1.700     1.448     1.954    -1.431    -1.580     0.000     2.132

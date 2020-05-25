@@ -1,0 +1,14 @@
+3
+C2S(^3Sigma^-) - dicarbon (mono)sulfide
+ C     0.000000     0.000000    -1.935867
+ C     0.000000     0.000000    -0.616053
+ S     0.000000     0.000000     0.956055
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       6.4073540      6.4073540      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -473.634262 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.764     4.763    11.092     6.873     0.000     0.000    -3.107     3.107

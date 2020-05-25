@@ -1,0 +1,14 @@
+3
+N2O(^1Sigma^+) - nitrous oxide - dinitrogen monoxide
+ N     0.000000     0.000000    -1.205222
+ N     0.000000     0.000000    -0.072559
+ O     0.000000     0.000000     1.118635
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      12.4969759     12.4969759      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -184.420459 Eh
+ 
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     1.953     1.953     4.864     2.923     0.000     0.000     0.144     0.144

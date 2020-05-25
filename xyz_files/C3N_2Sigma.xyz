@@ -1,0 +1,15 @@
+4
+C3N(^2Sigma^+) - cyanoethynyl radical
+ N     0.000000     0.000000    -1.796249
+ C     0.000000     0.000000    -0.629526
+ C     0.000000     0.000000     0.753602
+ C     0.000000     0.000000     1.970631
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       4.8867862      4.8867862      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -168.565505 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.031     4.031     8.963     5.675     0.000     0.000    -2.864     2.864

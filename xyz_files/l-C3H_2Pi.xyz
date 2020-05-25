@@ -1,0 +1,15 @@
+4
+l-C3H(^2Pi)
+ H     0.000000     0.000000    -2.283092
+ C     0.000000     0.000000    -1.217159
+ C     0.000000     0.000000     0.030416
+ C     0.000000     0.000000     1.378336
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      11.0157954     11.0157954      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -114.462685 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.824     3.726     8.525     5.359     0.000     0.000     3.532     3.532

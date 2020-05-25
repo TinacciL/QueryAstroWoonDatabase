@@ -1,0 +1,15 @@
+4
+HNCO(^1A') - isocyanic acid
+ H    -1.832571    -0.711532     0.000000
+ N    -1.212065     0.081592     0.000000
+ C     0.004048    -0.040610     0.000000
+ O     1.173515     0.003882     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     810.4284543     10.9874865     10.8405149 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -168.445947 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.434     2.558     2.480     3.490     1.490     1.382     0.000     2.032

@@ -1,0 +1,14 @@
+3
+HCP(^1Sigma^+) - methinophosphide - phosphaethyne
+ H     0.000000     0.000000    -2.140577
+ C     0.000000     0.000000    -1.067179
+ P     0.000000     0.000000     0.483489
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      19.7893456     19.7893456      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -379.491774 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.452     4.452     6.941     5.282     0.000     0.000     0.424     0.424

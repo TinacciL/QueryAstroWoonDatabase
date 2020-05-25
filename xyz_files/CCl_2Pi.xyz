@@ -1,0 +1,13 @@
+2
+CCl(^2Pi) - chloromethylidyne
+ C     0.000000     0.000000    -1.238235
+CL     0.000000     0.000000     0.419497
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      20.4984141     20.4984141      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -497.607448 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.257     3.192     5.377     3.942     0.000     0.000    -1.404     1.404

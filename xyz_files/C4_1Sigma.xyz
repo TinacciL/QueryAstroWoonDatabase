@@ -1,0 +1,15 @@
+4
+C4(^1Sigma_g^+) - tetracarbon - carbon tetramer
+ C     0.000000     0.000000    -1.972461
+ C     0.000000     0.000000    -0.652299
+ C     0.000000     0.000000     0.652299
+ C     0.000000     0.000000     1.972461
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       4.8743483      4.8743483      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -151.784303 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.625     4.625    13.288     7.512     0.000     0.000     0.000     0.000

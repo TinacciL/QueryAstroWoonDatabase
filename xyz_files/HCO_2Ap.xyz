@@ -1,0 +1,14 @@
+3
+HCO(^2A') - formyl radical
+ H    -1.355919    -0.745206     0.000000
+ C    -0.622614     0.101550     0.000000
+ O     0.552827    -0.029288     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     724.7361508     44.3358928     41.7799926 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -113.692160 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.210     2.487     1.919     2.538     1.424     0.815     0.000     1.640

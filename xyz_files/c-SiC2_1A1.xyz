@@ -1,0 +1,14 @@
+3
+SiC2(^1A_1) - cyclic silicon dicarbide
+SI     0.000000     0.000000     0.799382
+ C     0.000000    -0.639851    -0.934604
+ C     0.000000     0.639851    -0.934604
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      10.3636276     12.9817871     51.3866344 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -364.956163 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.462     6.993     7.901     6.785     0.000     0.000    -2.401     2.401

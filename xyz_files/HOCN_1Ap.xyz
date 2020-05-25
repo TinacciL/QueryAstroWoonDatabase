@@ -1,0 +1,15 @@
+4
+HOCN(^1A') - cyanic acid
+ H    -1.529132    -0.830538     0.000000
+ O    -1.160236     0.063273     0.000000
+ C     0.145435    -0.008865     0.000000
+ N     1.310626    -0.004906     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     664.4437953     10.4832315     10.3204018 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -168.407590 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.687     2.672     2.529     3.296     3.453     1.543     0.000     3.782

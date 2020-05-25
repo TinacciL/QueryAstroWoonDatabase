@@ -1,0 +1,16 @@
+5
+CH2CN(^2B_1) - cyanomethyl radical
+ C     0.000000     0.000000     1.290507
+ C     0.000000     0.000000    -0.105212
+ H     0.000000     0.937147     1.826699
+ H     0.000000    -0.937147     1.826699
+ N     0.000000     0.000000    -1.279315
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       9.8022749     10.1508468    285.4543949 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -131.872012 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.285     3.435     6.428     4.382     0.000     0.000    -3.499     3.499

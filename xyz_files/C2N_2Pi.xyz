@@ -1,0 +1,14 @@
+3
+C2N(^2Pi) - cyanomethylidyne
+ C     0.000000     0.000000    -1.387100
+ C     0.000000     0.000000     0.000849
+ N     0.000000     0.000000     1.188735
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      11.7797104     11.7797104      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -130.531700 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.195     3.204     6.411     4.270     0.000     0.000     0.369     0.369

@@ -1,0 +1,16 @@
+5
+HCOCN(^1A') - cyanoformaldehyde
+ C     0.703289     0.465251     0.000000
+ C    -0.724082     0.084387     0.000000
+ O     1.587195    -0.358276     0.000000
+ H     0.888524     1.547408     0.000000
+ N    -1.859110    -0.173431     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      66.7263604      4.9668383      4.6227404 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -206.434241 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     6.613     4.106     3.202     4.641    -1.205    -2.202     0.000     2.510

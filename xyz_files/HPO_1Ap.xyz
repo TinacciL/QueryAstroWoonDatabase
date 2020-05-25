@@ -1,0 +1,14 @@
+3
+HPO(^1A')
+ H    -0.922926    -1.333952     0.000000
+ P    -0.488026     0.056071     0.000000
+ O     1.002929    -0.024513     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     265.9114973     20.7728338     19.2676569 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -416.626662 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     4.846     4.381     3.401     4.209     2.284     0.306     0.000     2.304

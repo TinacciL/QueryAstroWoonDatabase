@@ -1,0 +1,15 @@
+4
+HOOH(^1A_1) - hydrogen peroxide
+ H    -0.956937    -0.715191     0.499582
+ H     0.956937     0.715191     0.499582
+ O    -0.728082     0.059218    -0.031473
+ O     0.728082    -0.059218    -0.031473
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     301.1508318     26.1265168     25.3296957 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -151.374299 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.831     2.005     1.892     2.243     0.000     0.000    -1.743     1.743

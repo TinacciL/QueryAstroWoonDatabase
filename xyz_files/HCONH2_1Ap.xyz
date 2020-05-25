@@ -1,0 +1,17 @@
+6
+HCONH2(^1A') - formamide - amino formaldehyde
+ C     0.088116    -0.408125     0.000000
+ O     1.136622     0.208636     0.000000
+ N    -1.146605     0.164782     0.000000
+ H     0.043830    -1.509297     0.000000
+ H    -1.223855     1.168241     0.000000
+ H    -1.978383    -0.397202     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      73.1574247     11.3226153      9.8050779 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -169.657017 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.383     4.055     2.994     4.144     3.783     0.857     0.000     3.879

@@ -1,0 +1,14 @@
+3
+HNO(^1A') - nitrosyl hydride
+ H    -1.022144    -0.886593     0.000000
+ N    -0.611172     0.085459     0.000000
+ O     0.599445    -0.018961     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     561.3226765     41.9953492     39.0721656 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -130.309750 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.771     2.113     1.568     2.151     1.023     1.337     0.000     1.684

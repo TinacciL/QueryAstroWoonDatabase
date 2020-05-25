@@ -1,0 +1,15 @@
+4
+C3S(^1Sigma^+)
+ S     0.000000     0.000000    -1.504064
+ C     0.000000     0.000000     0.042290
+ C     0.000000     0.000000     1.341976
+ C     0.000000     0.000000     2.630411
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:       2.8506840      2.8506840      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -511.688215 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     5.403     5.403    18.140     9.649     0.000     0.000     3.927     3.927

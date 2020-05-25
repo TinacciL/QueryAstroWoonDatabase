@@ -1,0 +1,17 @@
+6
+HCOC2H(^1A') - ethynyl formaldehyde - formyl acetylene - 2-propynal
+ C     0.687797     0.453648     0.000000
+ C    -0.722191     0.089521     0.000000
+ C    -1.910238    -0.158211     0.000000
+ O     1.589534    -0.360501     0.000000
+ H     0.888868     1.535964     0.000000
+ H    -2.947140    -0.400908     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      67.4923659      4.7789921      4.4629780 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -190.351374 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     8.423     4.778     3.778     5.660     2.410    -1.427     0.000     2.801

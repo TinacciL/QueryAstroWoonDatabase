@@ -1,0 +1,13 @@
+2
+CS(^1Sigma^+) - carbon monosulfide
+ C     0.000000     0.000000    -1.124637
+ S     0.000000     0.000000     0.421335
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      24.2004622     24.2004622      0.0000000 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -435.701617 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     3.544     3.544     5.700     4.262     0.000     0.000    -1.951     1.951

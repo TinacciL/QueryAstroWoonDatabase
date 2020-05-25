@@ -1,0 +1,13 @@
+2
+NS(^2Pi) - nitrogen monosulfide
+ N     0.000000     0.000000    -1.046100
+ S     0.000000     0.000000     0.457031
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:      22.9461996     22.9461996      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -452.342244 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.984     3.315     5.057     3.785     0.000     0.000    -1.833     1.833

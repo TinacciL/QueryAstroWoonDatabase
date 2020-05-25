@@ -1,0 +1,15 @@
+4
+CH3(^2B_2) - methyl radical
+ C     0.000000     0.000000     0.000000
+ H     1.079494     0.000000     0.000000
+ H    -0.539747    -0.934870     0.000000
+ H    -0.539747     0.934870     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     286.8468206    286.8468206    143.4234103 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -39.763501 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.333     2.333     2.339     2.335     0.000     0.000     0.000     0.000

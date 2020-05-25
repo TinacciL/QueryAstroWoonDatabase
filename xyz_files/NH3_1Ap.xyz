@@ -1,0 +1,15 @@
+4
+NH3(1A_1) - ammonia
+ N     0.000000     0.000000    -0.068590
+ H     0.938475     0.000000     0.317719
+ H    -0.469237    -0.812743     0.317719
+ H    -0.469237     0.812743     0.317719
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     296.8049279    296.8049279    189.7647423 GHz
+
+ECCSD(T)/aug-cc-pVTZ = -56.480563 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     2.013     2.013     2.235     2.087     0.000     0.000    -1.519     1.519

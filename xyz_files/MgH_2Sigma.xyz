@@ -1,0 +1,13 @@
+2
+MgH(^2Sigma^+) - magnesium monohydride
+MG     0.000000     0.000000    -0.069482
+ H     0.000000     0.000000     1.675455
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:     171.5021359    171.5021359      0.0000000 GHz
+
+ERCCSD(T)/aug-cc-pVTZ = -200.198039 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     9.537     9.537     8.385     9.153     0.000     0.000     1.394     1.394
