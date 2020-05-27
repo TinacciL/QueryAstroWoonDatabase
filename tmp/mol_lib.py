@@ -17,6 +17,54 @@ def FromKJmolToK(KJmol):
     tmp = KJmol / 0.0083144621
     return(tmp)
 
+def FromFormulaToMass(formula):
+	atoms = ['H','C','N','O']
+	num = ['0','1','2','3','4','5','6','7','8','9']
+	n_n = [1.00784,12.0107,14.0067,15.999]
+	n_a = [0,0,0,0]
+	if formula == 'ERROR':
+		tmp_m  = 0
+	else:
+		for j in range(len(formula)):
+			for k in range(len(atoms)):
+				if formula[j] == atoms[k]:
+					if j + 3 == len(formula):
+						if formula[j+1] in num and formula[j+2] in num:
+							n_a[k] = int(formula[j+1]+formula[j+2])
+					elif j + 2 == len(formula):
+						n_a[k] = int(formula[j+1])
+					else:
+						if formula[j+1] in num and formula[j+2] in num:
+							n_a[k] = int(formula[j+1]+formula[j+2])
+						elif formula[j+1] in num:
+							n_a[k] = int(formula[j+1])
+		tmp_m = n_a[0] * n_n [0] + n_a[1] * n_n [1] + n_a[2] * n_n [2] + n_a[3] * n_n [3]
+	return(tmp_m)
+
+def FromFormulaToNa(formula):
+	atoms = ['H','C','N','O']
+	num = ['0','1','2','3','4','5','6','7','8','9']
+	n_at = [1,6,7,8]
+	n_a = [0,0,0,0]
+	if formula == 'ERROR':
+		tmp_na = 0
+	else:
+		for j in range(len(formula)):
+			for k in range(len(atoms)):
+				if formula[j] == atoms[k]:
+					if j + 3 == len(formula):
+						if formula[j+1] in num and formula[j+2] in num:
+							n_a[k] = int(formula[j+1]+formula[j+2])
+					elif j + 2 == len(formula):
+						n_a[k] = int(formula[j+1])
+					else:
+						if formula[j+1] in num and formula[j+2] in num:
+							n_a[k] = int(formula[j+1]+formula[j+2])
+						elif formula[j+1] in num:
+							n_a[k] = int(formula[j+1])
+		tmp_na = n_a[0] + n_a[1] + n_a[2] + n_a[3]
+	return(tmp_na)
+
 def MolFromGraphs(G):
 	'''
 	Function that takes as input the networkx graph (each node must have an atom property H,N,C,O etc) and return the mol (rdkit) object
@@ -99,8 +147,23 @@ def chem_formula(form):
 				for k in range(len(atoms)):
 					if form[j] == atoms[k]:
 						n_a[k] = n_a[k] + 1
-			else:       
+			elif j == len(form) - 2:
 				if form[j+1] in num:
+					tmp_n = int(form[j+1])
+					for k in range(len(atoms)):
+						if form[j] == atoms[k]:
+							n_a[k] = n_a[k] + tmp_n
+				else:
+					for k in range(len(atoms)):
+						if form[j] == atoms[k]:
+							n_a[k] = n_a[k] + 1
+			else:
+				if form[j+1] in num and form[j+2] in num:
+					tmp_n = int(form[j+1]+form[j+2])
+					for k in range(len(atoms)):
+						if form[j] == atoms[k]:
+							n_a[k] = n_a[k] + tmp_n
+				elif form[j+1] in num:
 					tmp_n = int(form[j+1])
 					for k in range(len(atoms)):
 						if form[j] == atoms[k]:
@@ -560,3 +623,27 @@ def FromNetworkDataFrameToNetworkClassList(df_net):
     for j,item in enumerate(net_list):
         network.append(reaction(item))
     return(network)
+
+def CorrectErrorPwdMolecules(item):
+    #item  = 'molecules/N1O2/N1O2_0.xtbopt.xyz'
+    tmp_bl = False
+    tmp_item = ''
+    tmp_a = ''
+    for j,item_j in enumerate(item):
+        if j > 9:
+            if item_j == '/':
+                tmp_bl = True
+            if tmp_bl == True:
+                tmp_item = tmp_item + item_j
+            else:
+                tmp_a = tmp_a + item_j
+    tmp_bl = True
+    tmp_subf = ''
+    for j,item_j in enumerate(tmp_item):
+        if item_j == '.':
+            tmp_bl = False
+        if tmp_bl == True:
+            tmp_subf = tmp_subf + item_j
+    tmp_path  = item[:10] + tmp_a + tmp_subf +  tmp_item
+    return(tmp_path)
+
