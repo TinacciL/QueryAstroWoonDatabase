@@ -325,7 +325,9 @@ def xtb_isomers(formula):
 		if tmp_xtb != None:
 			path = tmp_xtb[0] + '/' + tmp_xtb[0]
 			os.system("cp " + path + ".info " + tmp_xtb[0][:-4] + ".info")
-			os.system("cp " + path + ".xtbopt.xyz " + tmp_xtb[0][:-4] + ".xtbopt.xyz")	
+			os.system("cp " + path + ".xtbopt.xyz " + tmp_xtb[0][:-4] + ".xtbopt.xyz")
+			os.system("cp " + path + ".out " + tmp_xtb[0][:-4] + ".out")
+			os.system('ase gui ' + tmp_xtb[0][:-4] + '.xtbopt.xyz' + ' -o ' + item + '.png')
 		os.chdir(sub_main)
 	os.chdir(main)
 	return()
@@ -359,6 +361,7 @@ def ChooseXtbCalculation(info_mols):
         return(tmp)
 
 def xtbInfoFile(name):
+	num = ['0','1','2','3','4','5','6','7','8','9']
 	list_file = os.listdir()
 	name_out = name + '.out'
 	name_xyz = name + ".xyz"
@@ -367,6 +370,11 @@ def xtbInfoFile(name):
 		with open(name_out,"r") as data:
 			lines = data.readlines()
 			tmp_t = False
+			tmp_start = False
+			tmp_end = False
+			tmp_ok = False
+			data_occ = []
+			ref_line = '-'*61
 			for i,item in enumerate(lines):
 				if i == 63:
 					tmp = item.split()
@@ -390,7 +398,31 @@ def xtbInfoFile(name):
 					tmp_t = True
 				if 'TOTAL ENTHALPY'	in item:
 					tmp  = item.split()
-					H_10 = tmp[3]	
+					H_10 = tmp[3]
+				if 'Orbital Energies and Occupations' in item:
+					tmp_start = True
+				if tmp_start == True and ref_line in item and tmp_ok == True:
+					tmp_end = True
+					tmp_start = False
+					tmp_ok = False
+				elif tmp_start == True and ref_line in item and tmp_ok == False:
+					tmp_ok = True
+				if tmp_ok == True and ref_line not in item:
+					tmp_d = item.strip().split()
+					if len(tmp_d[0]) == 1:
+						if tmp_d[0] in num:
+							if len(tmp_d[1]) > 6:
+								tmp_d.insert(1,'0.0000')
+							data_occ.append(tmp_d)
+					if len(tmp_d[0]) == 2:
+						if tmp_d[0][0] in num:
+							if len(tmp_d[1]) > 6:
+								tmp_d.insert(1,'0.0000')
+							data_occ.append(tmp_d)
+			if len(data_occ) != 0:
+				spin_m = str(FromXtbToSpinM(data_occ))
+			else:
+				spin_m = 'error'
 			if tmp_t == False:
 				electron = 'error'
 				charge = 'error'
@@ -400,6 +432,7 @@ def xtbInfoFile(name):
 				H_0 = 'error'
 				ZPE = 'error'
 				E_t = 'error'
+				spin_m = 'error'
 		xyz_pre = FromXYZtoGraph(name_xyz)
 		xyz_opt = FromXYZtoGraph(name_opt)
 		nm = nx.algorithms.isomorphism.categorical_node_match('atom','atom')
@@ -417,6 +450,7 @@ def xtbInfoFile(name):
 		H_0 = 'error'
 		ZPE = 'error'
 		E_t = 'error'
+		spin_m = 'error'
 		print("error in " + name)
 
 	with open(name + '.info',"w+") as data:
@@ -429,6 +463,8 @@ def xtbInfoFile(name):
 		data.write('H(0K): ' + H_0 + '\n')
 		data.write('H(10K): ' + H_10 + '\n')
 		data.write('G(10K): ' + G_10 + '\n')
+		data.write('file: ' + name + '\n')
+		data.write('Spin_M: ' + spin_m + '\n')
 	return([name,con,electron,charge,spin,E_t])
 
 def ExtractDataFrameFromMolecules(directory):
@@ -458,7 +494,7 @@ def ExtractDataFrameFromMolecules(directory):
 					tmp_s = tmp_s[1]
 					tmp_h = lines[6].split()
 					tmp_h = tmp_h[1]
-					tmp_p = 'molecules' + '/' + mol + '/' + item + '.xtbopt.xyz'
+					tmp_p = directory + '/' + mol + '/' + item + '/' + item + '.xtbopt.xyz'
 				tmp_df = pd.DataFrame()
 				tmp_df['formula'] = [mol]
 				tmp_df['E_tot']   = [tmp_e]
@@ -647,3 +683,41 @@ def CorrectErrorPwdMolecules(item):
     tmp_path  = item[:10] + tmp_a + tmp_subf +  tmp_item
     return(tmp_path)
 
+def FromXtbToSpinM(data_occ):
+    occ = []
+    spin_m = None
+    for i,item in enumerate(data_occ):
+        if item[1] != '0.0000':
+            occ.append(float(item[1]))
+    tmp_occ = []
+    for i,item in enumerate(occ):
+        if item == 2:
+            continue
+        else:
+            tmp_occ.append(item)
+    tmp_l = []
+    for i, item in enumerate(tmp_occ):
+        if abs(item -2) < 0.24:
+            continue
+        elif abs(item -1) < 0.24:
+            tmp_l.append(round(item))
+        elif item < 0.1:
+            continue
+        else:
+            tmp_l.append(item)
+    tmp_occ = tmp_l.copy()
+    if len(tmp_occ) == 0:
+        spin_m = 1
+    else:
+        n_e = round(sum(tmp_occ))
+        n_o = len(tmp_occ)
+        n_d = n_e - n_o
+        if n_d == 0:
+            spin_m = round(n_e + 1)
+        elif n_d < 0:
+            spin_m = round(n_e + 1)    
+        else:
+            spin_m = round(n_e - n_d * 2 + 1)
+    if spin_m == None:
+        spin_m = 'error'
+    return(spin_m)
