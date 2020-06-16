@@ -8,6 +8,8 @@ from IG_lib import isomers_generator, tree_image, mol_graph_image, atoms_propert
 from rdkit.Chem import AllChem
 from openbabel import openbabel
 from ase import io, neighborlist
+from PIL import Image
+import PIL
 
 def FromHeToKJmol(Eh):
     tmp = Eh *  6.02214076 * 100 * 4.359748199
@@ -16,6 +18,45 @@ def FromHeToKJmol(Eh):
 def FromKJmolToK(KJmol):
     tmp = KJmol / 0.0083144621
     return(tmp)
+
+def FromFormulaToElectronCore(formula):
+	n_core = [0,2,2,2]
+	tmp_c = 0
+	n_atom = FromFormulaToAtomsList(formula)
+	for i,item in enumerate(n_atom):
+		tmp_c = tmp_c + n_atom[i] * n_core[i]
+	return(tmp_c)
+
+def FromFormulaToElectron(formula):
+	n_core = [1,6,7,8]
+	tmp_c = 0
+	n_atom = FromFormulaToAtomsList(formula)
+	for i,item in enumerate(n_atom):
+		tmp_c = tmp_c + n_atom[i] * n_core[i]
+	return(tmp_c)
+
+def FromFormulaToAtomsList(formula):
+	atoms = ['H','C','N','O']
+	num = ['0','1','2','3','4','5','6','7','8','9']
+	n_n = [1.00784,12.0107,14.0067,15.999]
+	n_a = [0,0,0,0]
+	if formula == 'ERROR':
+		n_a = [0,0,0,0]
+	else:
+		for j in range(len(formula)):
+			for k in range(len(atoms)):
+				if formula[j] == atoms[k]:
+					if j + 3 == len(formula):
+						if formula[j+1] in num and formula[j+2] in num:
+							n_a[k] = int(formula[j+1]+formula[j+2])
+					elif j + 2 == len(formula):
+						n_a[k] = int(formula[j+1])
+					else:
+						if formula[j+1] in num and formula[j+2] in num:
+							n_a[k] = int(formula[j+1]+formula[j+2])
+						elif formula[j+1] in num:
+							n_a[k] = int(formula[j+1])
+	return(n_a)
 
 def FromFormulaToMass(formula):
 	atoms = ['H','C','N','O']
@@ -721,3 +762,41 @@ def FromXtbToSpinM(data_occ):
     if spin_m == None:
         spin_m = 'error'
     return(spin_m)
+
+def FromReactionClassToImage(reaction,name,df_mol):
+    p = '/Users/tinaccil/Documents/GitHub/woon_query/data_analysis/reaction_image/item/plus.png'
+    ar = '/Users/tinaccil/Documents/GitHub/woon_query/data_analysis/reaction_image/item/arrow.png'
+    list_im = []
+    for j,item in enumerate(reaction.reactants):
+        tmp_p = df_mol.loc[df_mol['ID'] == reaction.reactants[j]]
+        tmp_n = tmp_p.iloc[0,12]
+        tmp_n = tmp_n[:-10] + 'png'
+        list_im.append(tmp_n)
+        if j == len(reaction.reactants) -1:
+            list_im.append(ar)
+        else:
+            list_im.append(p)
+    for j,item in enumerate(reaction.products):
+        tmp_p = df_mol.loc[df_mol['ID'] == reaction.products[j]]
+        tmp_n = tmp_p.iloc[0,12]
+        tmp_n = tmp_n[:-10] + 'png'
+        list_im.append(tmp_n)
+        if j == len(reaction.products) -1:
+            continue
+        else:
+            list_im.append(p)
+    imgs = [PIL.Image.open(i) for i in list_im]
+    size = (200,100)
+    for i,item in enumerate(imgs):
+        imgs[i] = item.resize(size)
+    widths, heights = zip(*(i.size for i in imgs))
+    total_width = sum(widths)
+    max_height = max(heights)
+    new_im = Image.new('RGB', (total_width, max_height))
+    new_im.paste(imgs[0],(0,0))
+    hoffset=0
+    for i in range(1,len(imgs),1):
+        hoffset=imgs[i-1].size[0]+hoffset
+        new_im.paste(imgs[i],(hoffset,0))
+    new_im.save(name)
+    return()
