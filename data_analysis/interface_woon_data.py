@@ -57,7 +57,7 @@ for i,item in enumerate(net):
     tmp = net[i]
     name = 'reaction_' + str(i) + '.png'
     FromReactionClassToImage(net[i],name,df_molecules)
-    tmp_id = 'reaction_' + str(i)
+    tmp_id.append('reaction_' + str(i))
 os.chdir(main)
 df_net_woon['Reaction_Image'] = tmp_id
 
