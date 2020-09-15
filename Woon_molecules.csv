@@ -70,7 +70,7 @@ C3S	ERROR	1Sigma	/Users/tinaccil/Documents/GitHub/woon_query/xyz_files/C3S_1Sigm
 SiO	ERROR	1Sigma	/Users/tinaccil/Documents/GitHub/woon_query/xyz_files/SiO_1Sigma.xyz	-364.208093	0.0	0
 SiH3	ERROR	2Ap	/Users/tinaccil/Documents/GitHub/woon_query/xyz_files/SiH3_2Ap.xyz	-290.790730	0.0	0
 SiC3H5	ERROR	2Ap	/Users/tinaccil/Documents/GitHub/woon_query/xyz_files/SiC3H5_2Ap.xyz	-405.939901	0.0	0
-H	H1	1Sigma	/Users/tinaccil/Documents/GitHub/woon_query/xyz_files/H_1Sigma.xyz	-0.499810	1.00784	1
+H	H1	1Sigma	/Users/tinaccil/Documents/GitHub/woon_query/xyz_files/H_2Sigma.xyz	-0.499810	1.00784	1
 C	C1	3Pi	/Users/tinaccil/Documents/GitHub/woon_query/xyz_files/C_3Pi.xyz	-37.780762	12.0107	1
 N	N1	4Sigma	/Users/tinaccil/Documents/GitHub/woon_query/xyz_files/N_4Sigma.xyz	-54.514707	14.0067	1
 O	O1	3Sigma	/Users/tinaccil/Documents/GitHub/woon_query/xyz_files/O_3Sigma.xyz	-74.973962	15.999	1
