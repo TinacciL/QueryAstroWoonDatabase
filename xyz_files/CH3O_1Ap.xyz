@@ -1,0 +1,16 @@
+5
+CH3O(^1Ap) - methoxyradical
+ C     0.015139     0.033604     0.010572
+ H    -0.003289    -0.019866     1.102796
+ H     1.038804    -0.019865    -0.370661
+ H    -0.517333    -0.853135    -0.365634
+ O    -0.679928     1.113193    -0.480741
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:    0    0    0
+
+CCSD(T)/aug-cc-pVTZ = -114.8850823 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     0     0     0     0     0     0     0     0

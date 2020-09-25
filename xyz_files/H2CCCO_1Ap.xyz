@@ -1,0 +1,17 @@
+6
+H2CCCO(^1Ap) - Propadienal
+C     1.100013    -1.443394     0.000000
+C     0.000000    -0.682723     0.000000
+C    -0.368770     0.580015     0.000000
+O    -0.939413     1.603560     0.000000
+H     2.103867    -1.025513     0.000000
+H     1.024016    -2.526351     0.000000
+
+-------- ENERGY AND PROPERTIES --------
+
+ Rotational constants:    0    0    0
+
+CCSD(T)/aug-cc-pVTZ = -190.353219 Eh
+
+  ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
+     0     0     0     0     0     0     0     0
