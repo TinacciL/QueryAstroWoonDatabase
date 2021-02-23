@@ -1,13 +1,13 @@
 2
 SiO(^1Sigma^+) - silicon monoxide
-SI     0.000000     0.000000    -0.552331
- O     0.000000     0.000000     0.969567
+SI     0.000000     0.000000     0.548594
+ O     0.000000     0.000000    -0.960040
 
 -------- ENERGY AND PROPERTIES --------
 
  Rotational constants:      21.4067216     21.4067216      0.0000000 GHz
 
-ECCSD(T)/aug-cc-pVTZ = -364.208093 Eh
+ECCSD(T)/aug-cc-pVTZ = -364.717473949 Eh
 
   ALPHA_XX  ALPHA_YY  ALPHA_ZZ     ALPHA      MU_X      MU_Y      MU_Z       MU
      4.071     4.071     5.189     4.444     0.000     0.000     3.092     3.092
